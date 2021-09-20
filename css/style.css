@@ -1,5 +1,7 @@
 body {
     background-image: url("../images/fondo.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .container {
@@ -11,7 +13,6 @@ body {
     width: 90%;
     margin-top: 2.5rem;
     box-shadow: 5px 6px 7px 0px rgba(54, 62, 70, 0.507);
-    /* margin: 0 auto; */
 }
 
 .sidebar{
@@ -110,7 +111,7 @@ button:hover {
     display:block;
     margin:auto;
     height: 150px;
-    border-radius: none;
+    border-radius: 3px;
 }
 
 a {
