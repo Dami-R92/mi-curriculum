@@ -33,7 +33,7 @@ body {
 }
 
 
-img {
+.profile-img {
     display:block;
     margin:auto;
     height: 150px;
@@ -56,6 +56,14 @@ h2 {
     margin: 0.5rem;
     text-align: center;
 }
+h3 {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 600;
+    color: whitesmoke;
+    text-shadow: 3px 2px 3px rgb(54, 62, 70);    margin: 0.5rem;
+    text-align: center;
+
+}
 
 li {
     font-family: 'JetBrains Mono', monospace;
@@ -74,4 +82,42 @@ li:hover {
 p {
     font-family: 'JetBrains Mono', monospace;
     text-align: justify;
+}
+
+.proyect-card {
+    display: grid;
+    justify-content: center;
+    padding: 10px 5px 15px 5px;
+}
+button {
+    font-family: 'JetBrains Mono', monospace;
+    color: whitesmoke;
+    text-shadow: 1px 1px 2px rgb(54, 62, 70);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 5px 10px;
+    background: linear-gradient( rgb(252, 3, 86), rgb(202, 2, 69));
+    border: none;
+    border-radius: 3px;
+    box-shadow: rgba(61, 61, 61, 0.548) 2px 1px 3px;
+}
+
+button:hover {
+    background: rgb(5, 172, 144);
+}
+
+.project-img {
+    display:block;
+    margin:auto;
+    height: 150px;
+    border-radius: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.452);
 }
