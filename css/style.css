@@ -119,6 +119,10 @@ button:hover {
     width: 90%;
     border-radius: 3px;
 }
+.educacion-img:hover {
+    box-shadow: rgba(255, 255, 255, 0.74) 0px 0px 8px 7px;
+    transform: scale(1.08);
+}
 
 a {
     color: white;
@@ -130,13 +134,11 @@ a:hover {
 }
 
 .linkedin {
-    width: 20px;
     position: -webkit-sticky;
     position: sticky;
-    top: 20px;
-    left: 10px;
     z-index: 10;
 }
 .linkedin:hover {
-    box-shadow: rgba(255, 255, 255, 0.548) 2px 1px 3px;
+    box-shadow: rgba(255, 255, 255, 0.74) 0px 0px 8px 7px;
+    transform: scale(1.08);
 }
