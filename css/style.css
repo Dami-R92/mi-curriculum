@@ -212,6 +212,11 @@ a:hover {
     height: 40px;
 }
 .hobbies--card__description {
-    padding: 1rem 3.5rem;
-
+    padding: 1rem 2rem;
+}
+.hobbies--img {
+    display:block;
+    margin:auto;
+    width: 80%;
+    border-radius: 3px;
 }
